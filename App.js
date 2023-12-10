@@ -1,7 +1,7 @@
 import React from "react";
-import AppNavigator from "../News-APP/src/Navigation/AppNavigator";
-import { DarkModeProvider } from "../News-APP/src/Utils/DarkModeContext";
-import "../News-APP/src/Utils/i18next";
+import AppNavigator from "./src/Navigation/AppNavigator";
+import { DarkModeProvider } from "./src/Utils/DarkModeContext";
+import "./src/Utils/i18next";
 const App = () => {
   return (
     <DarkModeProvider>
